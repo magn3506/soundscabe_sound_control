@@ -1,0 +1,15 @@
+
+button {
+    padding: 10px;
+}
+button:hover {
+    cursor: pointer;
+}
+
+.off {
+    border: solid red 2px;
+}
+
+.on{
+    border: solid green 2px;
+}
