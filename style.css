@@ -1,15 +1,28 @@
 
 button {
     padding: 10px;
+    width: 200px;
+    height: 200px;
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
 }
 button:hover {
     cursor: pointer;
 }
 
 .off {
-    border: solid red 2px;
+    background-color: brown;
 }
 
 .on{
-    border: solid green 2px;
+    background-color: green;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
 }
